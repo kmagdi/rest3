@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET with JS</title>
+</head>
+<body>
+    <h1>GET kérés indítádsa JS-ből</h1>
+    <div >
+        <button onclick="renderTermekek_map()">FETCH async/await - map</button>
+    </div>
+    <div>
+        <button onclick="renderTermekek_forEach()">FETCH async/await - forEach</button>
+    </div>
+    <div id="fetch">
+        <button onclick="getFetch()">FETCH</button>
+    </div> 
+    <div class="container"></div>
+
+    <script src="get.js"></script>
+</body>
+</html>
